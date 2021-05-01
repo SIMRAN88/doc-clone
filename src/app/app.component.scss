@@ -46,6 +46,7 @@ button[disabled] {
   /* Element counter */
   li::before {
     content: counters(index, ".", decimal-leading-zero);
+    cursor: pointer;
     font-size: 1.5rem;
     text-align: right;
     font-weight: bold;
